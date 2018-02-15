@@ -23,7 +23,7 @@
   list
 
 ##########################################################
-# test add person command, setup state for futuer tests
+# test add person command, setup state for future tests
 ##########################################################
 
   # should catch invalid args format
@@ -147,6 +147,19 @@
   # clears all
   clear
   list
+
+##########################################################
+# test sort command
+##########################################################
+  # insert in reverse order
+  add Crazy Cook p/999 e/mwahaha@gordonramsay.com a/Not in SG
+  add Billy p/44581269 e/billy@me.com a/somewhere out there
+  add Ah Bob p/97845687 e/ahbob@gmail.com a/14 Toa Payoh Lorong 4 #11-2254
+  sort
+
+  # make sure list indices work after sorting
+  delete 1
+  clear
 
 ##########################################################
 # test exit command
