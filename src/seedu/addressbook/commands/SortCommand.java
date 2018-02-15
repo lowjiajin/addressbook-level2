@@ -5,14 +5,14 @@ import seedu.addressbook.data.person.*;
 import java.util.List;
 
 /**
- * Adds a person to the address book.
+ * Sorts the address book and lists it.
  */
 public class SortCommand extends Command {
 
     public static final String COMMAND_WORD = "sort";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Sorts the AddressBook by lexicographic order"
-            + " and displays the sorted output.\n"
+            + " and lists the sorted output.\n"
             + "Example: " + COMMAND_WORD;
 
     @Override
