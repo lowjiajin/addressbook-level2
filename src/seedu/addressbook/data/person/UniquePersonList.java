@@ -122,8 +122,11 @@ public class UniquePersonList implements Iterable<Person> {
         }
     }
 
+    /**
+     * Sorts the list of persons based on their name's lexicographic order.
+     */
     public void sort() {
-        this.internalList.sort(Person.nameComparator);
+        internalList.sort(Person.nameComparator);
     }
 
     /**

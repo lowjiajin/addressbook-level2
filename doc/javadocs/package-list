@@ -1,0 +1,11 @@
+seedu.addressbook
+seedu.addressbook.commands
+seedu.addressbook.common
+seedu.addressbook.data
+seedu.addressbook.data.exception
+seedu.addressbook.data.person
+seedu.addressbook.data.tag
+seedu.addressbook.parser
+seedu.addressbook.storage
+seedu.addressbook.storage.jaxb
+seedu.addressbook.ui
